@@ -15,7 +15,7 @@
 from platformio.managers.platform import PlatformBase
 
 
-class Ststm8Platform(PlatformBase):
+class P13Platform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         if "arduino" in variables.get("pioframework", []):

@@ -1,35 +1,15 @@
-# ST STM8: development platform for [PlatformIO](http://platformio.org)
+# [P13](https://github.com/OS-Q/P13)
 
-[![Build Status](https://github.com/platformio/platform-ststm8/workflows/Examples/badge.svg)](https://github.com/platformio/platform-ststm8/actions)
+[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-The STM8 is an 8-bit microcontroller family by STMicroelectronics an extended variant of the ST7 microcontroller architecture. STM8 microcontrollers are particularly low cost for a full-featured 8-bit microcontroller.
+[![Build Status](https://github.com/OS-Q/P13/workflows/CI/badge.svg)](https://github.com/OS-Q/P13/actions/workflows/CI.yml)
 
-* [Home](http://platformio.org/platforms/ststm8) (home page in PlatformIO Platform Registry)
-* [Documentation](http://docs.platformio.org/page/platforms/ststm8.html) (advanced usage, packages, boards, frameworks, etc.)
+### [简介](https://github.com/OS-Q/P13/wiki)
 
-# Usage
+[P13](https://github.com/OS-Q/P13) 适配 [STM8S](https://www.st.com/zh/microcontrollers-microprocessors/stm8s-series.html)
 
-1. [Install PlatformIO](http://platformio.org)
-2. Create PlatformIO project and configure a platform option in [platformio.ini](http://docs.platformio.org/page/projectconf.html) file:
-
-## Stable version
-
-```ini
-[env:stable]
-platform = ststm8
-board = ...
-...
-```
-
-## Development version
-
-```ini
-[env:development]
-platform = https://github.com/platformio/platform-ststm8.git
-board = ...
-...
-```
-
-# Configuration
-
-Please navigate to [documentation](http://docs.platformio.org/page/platforms/ststm8.html).
+| STM8S | ![Build Status](https://github.com/OS-Q/P13/workflows/reg/badge.svg) | ![Build Status](https://github.com/OS-Q/P13/workflows/arduino/badge.svg) | ![Build Status](https://github.com/OS-Q/P13/workflows/spl/badge.svg) | sdcc | FLASH | SRAM | EEROM  | 平台 |
+| ---------- | --- | ---- | --- | --- | ---- | --- | ----- | ---- |
+| [STM8S0](https://github.com/SoCXin/STM8S003) | √   | √    | X   | 4.1 |   8K |  1K | 128B | [P131](https://github.com/OS-Q/P131) |
+| [STM8S1](https://github.com/SoCXin/STM8S105) | √   | √    | √   | 4.1 |  32K |  2K | 1K  | [P132](https://github.com/OS-Q/P132) |
+| [STM8S2](https://github.com/SoCXin/STM8S208) | √   | √    | √   | 4.1 |  128K | 6K | 2K  | [P133](https://github.com/OS-Q/P133) |

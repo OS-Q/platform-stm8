@@ -1,0 +1,7 @@
+.pio
+Debug/
+settings/
+Backup*
+*.ewt
+*.dep
+*.ewd
