@@ -38,6 +38,6 @@ jobs:
           pio pkg install --global --platform symlink://.
 
       - name: Build examples
-        working-directory: examples
+        working-directory: examples/reg
         run: |
           pio run -d ${{ matrix.example }}
